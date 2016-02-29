@@ -83,7 +83,7 @@ if (!hello_run && Dubtrack.session.id && !ifUserBanned) {
 
     //Ref 2: Options
     var hello = {
-        gitRoot: 'https://rawgit.com/Laquett/DubX/master',
+        gitRoot: 'https://rawgit.com/sinfulBA/DubX-Script/master',
         //Ref 2.1: Initialize
         personalize: function() {
             $('.isUser').text(Dubtrack.session.get('username'));
@@ -251,7 +251,7 @@ if (!hello_run && Dubtrack.session.id && !ifUserBanned) {
                                 '</a>',
                             '</li>',
                             '<li class="for_content_li for_content_feature">',
-                                '<a href="https://github.com/Laquett/DubX" target="_blank" style="color: #878c8e;">',
+                                '<a href="https://github.com/sinfulBA/DubX-Script" target="_blank" style="color: #878c8e;">',
                                     '<p class="for_content_off"><i class="fi-social-github"></i></p>',
                                     '<p class="for_content_p">Fork Us on Github</p>',
                                 '</a>',
